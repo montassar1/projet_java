@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.affichage_tt">
+   <children>
+      <TableView fx:id="tab" layoutX="7.0" layoutY="66.0" prefHeight="365.0" prefWidth="558.0">
+        <columns>
+          <TableColumn fx:id="TabNom" prefWidth="141.0" text="nom" />
+          <TableColumn fx:id="TabPrenom" editable="false" maxWidth="2000.0" prefWidth="123.0" sortable="false" text="pren" />
+            <TableColumn fx:id="TabCin" maxWidth="2000.0" prefWidth="89.0" text="id" />
+            <TableColumn fx:id="tabadr" prefWidth="121.0" text="adr" />
+            <TableColumn fx:id="tabsal" maxWidth="2000.0" prefWidth="125.0" text="sal" />
+        </columns>
+      </TableView>
+      <Button layoutX="21.0" layoutY="446.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="76.0" text="exit" />
+      <Button layoutX="378.0" layoutY="446.0" mnemonicParsing="false" onAction="#retour" prefHeight="40.0" prefWidth="91.0" text="retour" />
+      <Label layoutX="21.0" prefHeight="53.0" prefWidth="382.0" text="affichage de liste de responsable">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

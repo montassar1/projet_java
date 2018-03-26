@@ -1,0 +1,71 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root
+{
+
+-fx-font-family: "serif";
+-fx-background-radius: 7;
+    -fx-border-radius: 7;
+    -fx-background-insets: 10 10 10 10;
+-fx-background-image: url("zoom.jpg") ;
+-fx-background-repeat: stretch; 
+-fx-background-size: 600 500;
+}
+
+.label{
+	-fx-alignment: CENTER_LEFT;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 10;
+   -fx-font-family: Bell MT;
+   -fx-font-size: 20;
+}
+#reponse{-fx-alignment: CENTER_LEFT;
+    -fx-text-fill: green;
+    -fx-padding: 0 0 0 10;
+   -fx-font-family: Bell MT;
+   -fx-font-size: 15;}
+#sc{
+	-fx-alignment: CENTER_LEFT;
+    -fx-text-fill: black;
+    -fx-padding: 0 0 0 10;
+   -fx-font-family: Bell MT;
+   -fx-font-size: 15;
+}
+.button{
+	   -fx-background-radius: 40;
+    -fx-border-radius: 40;
+    -fx-background-color: #4ec2d6;
+    -fx-pref-height:40;
+    -fx-pref-width:130;
+   
+}
+#AjoutCompEmp{   -fx-background-radius: 40;
+    -fx-border-radius: 40;
+    -fx-background-color: #F88E1D;
+    -fx-pref-height:40;
+    -fx-pref-width:200; }
+    
+    #tbC {
+    -fx-table-header-border-color: transparent;
+    -fx-table-cell-border-color: -fx-box-border;  
+    -fx-background-color: transparent;
+} 
+
+
+.table-view .filler, .table-view .column-header
+{
+    -fx-size: 40;
+    
+    -fx-border-color: #F88E1D ;
+    -fx-border-width: 1 1 1 1;
+    -fx-background-color: transparent;
+}
+
+#tbC .column-header-background
+{
+    -fx-background-color: #0081FF;
+}
+
+#tbC .text{
+	 -fx-fill: white ;
+       -fx-font-size: 30;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.clientController">
+   <children>
+      <Button layoutX="150.0" layoutY="100.0" mnemonicParsing="false" onAction="#ajouter_au_comm" prefHeight="33.0" prefWidth="118.0" text="ajouter_au_comm" />
+      <Button layoutX="32.0" layoutY="344.0" mnemonicParsing="false" onAction="#exit" prefHeight="33.0" prefWidth="80.0" text="exit" />
+      <Button layoutX="150.0" layoutY="261.0" mnemonicParsing="false" onAction="#nouvelle_comm" prefHeight="33.0" prefWidth="118.0" text="nouvelle_comm" />
+      <Button layoutX="188.0" layoutY="335.0" mnemonicParsing="false" onAction="#retour" prefHeight="33.0" prefWidth="80.0" text="retour" />
+      <Button fx:id="supp" layoutX="32.0" layoutY="184.0" mnemonicParsing="false" onAction="#facteur" prefHeight="33.0" prefWidth="118.0" text="facteur" />
+      <Label layoutX="41.0" layoutY="8.0" prefHeight="82.0" prefWidth="216.0" text="bienvenue">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

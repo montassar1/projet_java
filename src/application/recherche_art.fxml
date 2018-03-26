@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.recherche_art">
+   <children>
+      <Button layoutX="82.0" layoutY="257.0" mnemonicParsing="false" onAction="#rechercher" prefHeight="47.0" prefWidth="137.0" text="Recherche">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblstat" layoutX="11.0" layoutY="8.0" prefHeight="168.0" prefWidth="280.0" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></Label>
+      <TextField fx:id="ref" layoutX="56.0" layoutY="184.0" prefHeight="47.0" prefWidth="185.0" promptText="Reference" />
+      <Button layoutX="182.0" layoutY="347.0" mnemonicParsing="false" onAction="#exit" prefHeight="24.0" prefWidth="98.0" text="exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="347.0" mnemonicParsing="false" onAction="#retour" prefHeight="39.0" prefWidth="98.0" text="retour">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
